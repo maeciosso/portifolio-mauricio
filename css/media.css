@@ -1,0 +1,41 @@
+@media screen and (max-width: 768px) {
+    .mauro{font-size: larger; width: 300px;}
+    p#mim{font-size: small;}
+}
+
+@media screen and (max-width: 425px) {
+    .mauro{font-size: larger; width: 300px;}
+    p#mim{font-size: 10px;}
+    h3, h2{margin-left: 0; font-size: 20px;} 
+
+    #eu{width: 90px;}
+    #triplice{margin: 20px 0 0 50px; width: 50%;}
+    #triplice:hover{width: 70%; opacity: 1;}
+    #eu2{margin-left: 0; }
+    #sobreMim{margin: 0;}
+    #senha{margin-top: 110px;}
+}
+@media screen and (max-width: 375px) {
+    .mauro{font-size: larger; width: 300px;}
+    p#mim{font-size: 10px;}
+    h3, h2{margin-left: 0; font-size: 10px;} 
+
+    #eu{width: 90px;}
+    #triplice{margin: 20px 0 0 50px; width: 50%;}
+    #triplice:hover{width: 70%; opacity: 1;}
+    #eu2{margin-left: 0; }
+    #sobreMim{margin: 0;}
+    #senha{margin-top: 99px;}
+}
+@media screen and (max-width: 320px) {
+    .mauro{font-size: larger; width: 300px;}
+    p#mim{font-size: 10px;}
+    h3, h2{margin-left: 0; font-size: 20px;} 
+
+    #eu{width: 90px;}
+    #triplice{margin: 20px 0 0 50px; width: 50%;}
+    #triplice:hover{width: 70%; opacity: 1;}
+    #eu2{margin-left: 0; }
+    #sobreMim{margin: 0;}
+    #senha{margin-top: 87px;}
+}
