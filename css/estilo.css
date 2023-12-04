@@ -24,7 +24,7 @@ h1#logo{font-size: 3em; text-indent: -99999px}
 #trabalho:hover{box-shadow: -10px 8px 3px #ccc;}
 #portifolio{width: 100%; margin-top: 20px; transition: 0.4s}
 #portifolio:hover{box-shadow: -10px 8px 3px #ccc;}
-#senha{width: 100%; margin-top: 220px; transition: 0.4s}
+#senha{width: 100%; margin-top: 255px; transition: 0.4s}
 #senha:hover{box-shadow: -10px 8px 3px #ccc;}
 
 .inicio_topo{margin-top: 200px}
