@@ -1,0 +1,35 @@
+@media screen and (max-width: 1920px) {
+    .projetos{display: inline-block;width: 70%; margin-left: 330px; }
+    #sor,#senha,#segura{width: 400px}
+    #senha,#segura{margin-left: 20px;}
+}
+
+@media screen and (max-width: 1024px) {
+    .titulo{margin-left: 100px; margin-top: 200px;}
+
+    #eu2{width: 300px; margin-left: 50px;}
+}
+
+@media screen and (max-width: 768px) {
+    h1{font-size: 20px; width: 350px;}
+
+    .titulo{margin-left: 50px; margin-top: 100px;}
+
+    #sobreMim{font-size: medium; width: 500px;}
+    #eu{margin-left: 50px;}
+    #eu2{width: 200px; margin-left: 30px;}
+    #sor{width: 300px;}
+}
+@media screen and (max-width: 425px) {
+    h1{font-size: 20px; width: 350px;}
+
+    .titulo{margin-left: 50px; margin-top: 100px;}
+    .grid1{display: block}
+    .projetos{display: block;}
+
+    #sobreMim{font-size: medium; width: 400px; margin: auto; text-align: center;}
+    #eu{margin-left: 90px;}
+    #eu2{display: none;}
+    #sor,#senha,#segura{width: 300px}
+    #senha,#segura{margin-top: 20px;}
+}
