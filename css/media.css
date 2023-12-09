@@ -1,5 +1,7 @@
 @media screen and (max-width: 1920px) {
     .projetos{display: inline-block;width: 70%; margin-left: 330px; }
+
+    #eu{margin-left: -100px;}
     #sor,#senha,#segura{width: 400px}
     #senha,#segura{margin-left: 20px;}
 }
@@ -25,11 +27,42 @@
 
     .titulo{margin-left: 50px; margin-top: 100px;}
     .grid1{display: block}
-    .projetos{display: block;}
-
+    .projetos{display: block; margin: auto}
+     
     #sobreMim{font-size: medium; width: 400px; margin: auto; text-align: center;}
     #eu{margin-left: 90px;}
     #eu2{display: none;}
-    #sor,#senha,#segura{width: 300px}
-    #senha,#segura{margin-top: 20px;}
+    #sor,#senha,#segura{width: 300px;margin-top: 20px;}
+    #senha,#segura{ margin: 0;}
+}
+
+@media screen and (max-width: 375px) {
+    h1{font-size: 18px; width: 310px;}
+
+    .titulo{margin-left: 10px; margin-top: 100px;}
+    .grid1{display: block}
+    .projetos{display: block; margin: auto}
+    .project{font-size: 50px;} 
+
+    #sobreMim{font-size: 20; width: 350px; margin: 13px; text-align: center;}
+    #eu{margin-left: 60px;}
+    #eu2{display: none;}
+    #sor,#senha,#segura{width: 263px;margin-top: 20px;}
+    #senha,#segura{ margin: 0;}
+}
+
+@media screen and (max-width: 320px) {
+    h1{font-size: 18px; width: 310px;}
+
+    .titulo{margin-left: 5px; margin-top: 100px;}
+    .grid1{display: block}
+    .projetos{display: block; margin: auto}
+    .project{font-size: 40px;} 
+
+    #sobreMim{font-size: 20; width: 300px; margin: 10px; text-align: center;}
+    #eu{margin-left: 30px;}
+    #eu2{display: none;}
+    #sor,#senha,#segura{width: 223px;margin-top: 20px;}
+    #senha,#segura{ margin: 0;}
+    #divMenu{width: 100%;}
 }

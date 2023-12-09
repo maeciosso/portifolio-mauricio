@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/media.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mauricio</title>
+    
 </head>
 <body>
 
@@ -18,11 +19,20 @@
         <ul>
             <a href=""><li>Home</li></a>
                 <hr>
-            <a href=""><li>Contato</li></a>
+            <li id="contato">Contato</li>
+                <ul id="dContatos" class="hide">
+                    <a href="www.linkedin.com/in/mauricio-c-1b0733293" target="_blank"><li>LinkedIn</li></a>
+                    <a href="https://github.com/maeciosso" target="_blank"><li>github</li></a>
+                    <a href="https://api.whatsapp.com/send?phone=5551998419207&text=ol%C3%A1%20vimos%20seu%20portif%C3%B3lio,%20entramos%20em%20contato%20mais%20tarde" target="_blank">
+                        <li>whatsapp</li>
+                    </a>
+
+                </ul>
+
                 <hr>
-            <a href=""><li>Projetos</li></a>
+            <a href="#pro" id="proje"><li>Projetos</li></a>
                 <hr>
-            <a href=""><li>Sobre mim</li></a>
+            <a href="#sobreMim" id="sob"><li>Sobre mim</li></a>
                 <hr>
         </ul>   
     </div>
@@ -32,7 +42,7 @@
             <div class="titulo">
                 <h1>Olá, meu nome é</h1><br>
                 <h1>Mauricio Castelão</h1><br>
-                <h1>e sou um programador front-end.</h1>
+                <h1>e sou um desenvolvedor front-end.</h1>
             </div>
 
             <div class="euDiv">
@@ -55,10 +65,10 @@
 
 
         <h1 class="project">PROJETOS</h1>
-            <div class="projetos">
-                <a href="https://rodrigo-psicologia.vercel.app/"><img src="img/rodrigo.jpg" id="sor" alt=""></a>
-                <a href="https://segura-site.vercel.app/"><img src="img/portifolio.jpg" id="segura" alt=""></a>
-                <a href="https://senha-gerador.vercel.app/"><img src="img/senhas.jpg" id="senha" alt=""></a>
+            <div class="projetos" id="pro">
+                <a href="https://rodrigo-psicologia.vercel.app/" target="_blank"><img src="img/rodrigo.jpg" id="sor" alt=""></a>
+                <a href="https://segura-site.vercel.app/" target="_blank"><img src="img/portifolio.jpg" id="segura" alt=""></a>
+                <a href="https://senha-gerador.vercel.app/" target="_blank"><img src="img/senhas.jpg" id="senha" alt=""></a>
             </div>
 
     </main>

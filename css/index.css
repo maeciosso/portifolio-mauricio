@@ -4,6 +4,9 @@
     padding: 0;
     font-family: cursive;
 }
+html {
+    scroll-behavior: smooth;
+  }
 body{
     background: url(../img/fundo.png);
 }
@@ -74,6 +77,7 @@ li{
 }#eu2{
     width: 300px;
     margin-left: 350px;
+    border-radius: 20px;
 }
 #logo{
     width: 100px;
@@ -103,7 +107,10 @@ width: 300px
 }
 #segura, #senha, #sor{
     transition: all .5s;
+    border-radius: 20px;
 }
 #segura:hover, #senha:hover, #sor:hover {
     box-shadow: -10px 10px 5px black;
 }
+
+#dContatos > a > li{font-size: medium; margin: 10px;}
