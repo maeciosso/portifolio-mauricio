@@ -73,9 +73,6 @@ footer{
     width: 90%;
     margin: auto;
     margin-top: 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
 }
 .img{
     width: 40px;
@@ -107,7 +104,7 @@ footer{
     margin-right: 1rem;
 }
 #divMenu{
-    width: 400px;
+    width: 425px;
     background-color: cadetblue;
     position: absolute;
     height: 1000px;
