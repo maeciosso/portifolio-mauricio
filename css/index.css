@@ -1,8 +1,8 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Kalnia&family=Oswald&display=swap');
 *{
     margin: 0; 
     padding: 0;
-    font-family: cursive;
+    font-family: 'Kalnia', serif;
 }
 html {
     scroll-behavior: smooth;
@@ -22,11 +22,16 @@ ul{
 li{
     font-size: 28px;
     margin: 10px;
+    cursor: pointer;
 }a{
     text-decoration: none;
     color: black;
 }li:hover{
     text-decoration: underline;
+}
+footer{
+    margin-top: 200px;
+    display: flex;
 }
 
 
@@ -46,6 +51,7 @@ li{
     grid-template-columns: auto auto;
 }.textoGrid > p{
     font-size: 20px;
+    font-family: 'Oswald', sans-serif;
 }
 .hide{
     display: none;
@@ -114,3 +120,13 @@ width: 300px
 }
 
 #dContatos > a > li{font-size: medium; margin: 10px;}
+
+#x{
+    width: 35px;
+    float: right;
+    margin: .5rem;
+    transition: all .5s ease;
+}#x:hover{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
