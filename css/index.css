@@ -3,7 +3,6 @@
     margin: 0; 
     padding: 0;
     font-family: 'Kalnia', serif;
-
 }
 html {
     scroll-behavior: smooth;
@@ -131,6 +130,7 @@ width: 300px
 }
 
 #dContatos > a > li{font-size: medium; margin: 10px;}
+#dContatos2 > a > li{font-size: medium; margin: 10px;}
 
 #x{
     width: 35px;
@@ -138,6 +138,15 @@ width: 300px
     margin: .5rem;
     transition: all .5s ease;
 }#x:hover{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+#x2{
+    width: 35px;
+    float: right;
+    margin: .5rem;
+    transition: all .5s ease;
+}#x2:hover{
     background-color: aliceblue;
     border-radius: 10px;
 }
