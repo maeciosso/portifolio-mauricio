@@ -31,7 +31,12 @@ li{
 }
 footer{
     margin-top: 200px;
-    display: flex;
+    background: cadetblue;
+    height: 40px;
+}footer>div{
+    text-align: center;
+}footer>div>ul>li{
+    width: fit-content;
 }
 
 
@@ -72,6 +77,14 @@ footer{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
+.img{
+    width: 40px;
+}
+.w{
+    width: 50px;
+    margin: 0;
+}
+
 
 
 
