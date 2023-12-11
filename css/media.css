@@ -12,6 +12,7 @@
     .titulo{margin-left: 100px; margin-top: 200px;}
 
     #sor,#senha,#segura,#nota{width: 400px}
+    #nota{margin-left: 90px;}
     #eu2{width: 300px; margin-left: 250px;}
 }
 
@@ -21,13 +22,14 @@
     .titulo{margin-left: 100px; margin-top: 200px;}
 
     #sor,#senha,#segura,#nota{width: 200px}
+    #nota{margin-left: 180px;}
     #eu2{width: 300px; margin-left: 50px;}
 }
 
 @media screen and (max-width: 768px) {
     h1{font-size: 22px; width: 350px;}
 
-    .projetos{display: inline;width: 90%; margin-left: 45px; outline: 2px solid red;}
+    .projetos{display: inline;width: 90%; margin-left: 45px;}
     .project{margin-bottom: 50px;}
     .titulo{margin-left: 50px; margin-top: 150px;}
 
