@@ -112,20 +112,14 @@ footer{
 #sobreMim{
     width: 552px;
 }
-#segura{
-width: 300px
-}#senha{
-    width: 300px;
-    grid-column-start: 2;
-    grid-column-end: 3;
-}#sor{
-    width: 450px;
-}
-#segura, #senha, #sor{
+
+#segura, #senha, #sor, #nota {
     transition: all .5s;
     border-radius: 20px;
+    width: 400px;
+
 }
-#segura:hover, #senha:hover, #sor:hover {
+#segura:hover, #senha:hover, #sor:hover, #nota:hover {
     box-shadow: -10px 10px 5px black;
 }
 
