@@ -1,9 +1,10 @@
 @media screen and (max-width: 1920px) {
     .projetos{display: inline-block;width: 70%; margin-left: 330px; }
 
-    #eu{margin-left: -100px;}
+    #eu{margin-left: 400px;}
     #sor,#senha,#segura,#nota{width: 400px}
     #senha,#segura{margin-left: 20px;}
+    #sobreMim{margin-left: -200px;}
 }
 
 @media screen and (max-width: 1440px) {
@@ -13,17 +14,27 @@
 
     #sor,#senha,#segura,#nota{width: 400px}
     #nota{margin-left: 90px;}
-    #eu2{width: 300px; margin-left: 250px;}
+    #eu{margin-left: 150px;}
+
+    .pro > p, .pro > div > p{
+        width: 400px;
+        margin-left: 40px;
+        font-size: 20px;
+    }.pro > div > img, .pro>h2{
+        margin-left: 30px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
     .projetos{display: inline;width: 90%; margin-left: 180px;}
     .project{margin-bottom: 50px;}
     .titulo{margin-left: 100px; margin-top: 200px;}
+    
 
-    #sor,#senha,#segura,#nota{width: 200px}
+    #sor,#senha,#segura,#nota{width: 300px; margin-right: 100px;}
     #nota{margin-left: 180px;}
-    #eu2{width: 300px; margin-left: 50px;}
+    #eu{width: 300px; margin-left: 50px;}
+    #sobreMim{margin-left: 100px;}
 }
 
 @media screen and (max-width: 768px) {
@@ -33,27 +44,34 @@
     .project{margin-bottom: 50px;}
     .titulo{margin-left: 50px; margin-top: 150px;}
 
-    #sobreMim{font-size: large; width: 350px;}
+    #sobreMim{font-size: large; width: 350px; margin-left: 50px;}
     #eu{margin-left: 50px;}
     #eu2{width: 250px; margin-left: 50px;}
     #sor{width: 300px;}
-    #sor,#senha,#segura,#nota{width: 210px;}
+    #sor,#senha,#segura,#nota{width: 210px;margin-right: 80px;}
     #nota{margin-left: 45px;}
 }
 @media screen and (max-width: 425px) {
-    h1{font-size: 20px; width: 350px;}
+    h1{font-size: 40px; width: 350px;}
 
     .titulo{margin-left: 50px; margin-top: 100px;}
     .grid1{display: block}
     .projetos{display: block; margin-left: 60px; width: 330px;}
     .project{font-size: 45px;}
      
-    #sobreMim{font-size: medium; width: 400px; margin: auto; text-align: center;}
-    #eu{margin-left: 90px;}
-    #eu2{display: none;}
-    #sor,#senha,#segura,#nota{width: 300px;margin-top: 20px;}
+    #sobreMim{font-size: medium; width: 380px; margin: 20px; text-align: center;}
+    #eu{display: none;}
+    #sor, #senha, #segura, #nota{width: 300px; margin-right: 30px; margin: 20px ; clear: both;}
     #senha,#segura,#nota{ margin: 0; margin-top: 20px;}
     #divMenu{width: 100%;}
+
+
+    .pro > p, .pro > div > p{
+        width: 300px;
+        font-size: 20px;
+    }.pro > div > img, .pro>h2{
+        margin-left: 30px;
+    }
 }
 
 @media screen and (max-width: 375px) {
