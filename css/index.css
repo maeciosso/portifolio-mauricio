@@ -38,6 +38,9 @@ footer{
 }footer>div>ul>li{
     width: fit-content;
 }
+h1,h2{
+    color: #fff;
+}
 
 
 
@@ -105,6 +108,7 @@ footer{
 }
 #sobreMim{
     width: 552px;
+    color: #fff;
 }
 
 #segura, #senha, #sor, #nota {
@@ -147,6 +151,7 @@ footer{
     width: 400px;
     margin-left: 30px;
     font-size: 20px;
+    color: #fff;
 }.pro > div > img{
     margin-left: 30px;
 }
