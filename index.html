@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/media.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mauricio</title>
     
@@ -26,7 +25,7 @@
                 <ul id="dContatos" class="hide">
                     <a href="www.linkedin.com/in/mauricio-c-1b0733293" target="_blank"><li>LinkedIn</li></a>
                     <a href="https://github.com/maeciosso" target="_blank"><li>github</li></a>
-                    <a href="https://www.instagram.com/mauriciocastelao_/."><li>instagram</li></a>
+                    <a href="https://www.instagram.com/mauriciocastelao_/." target="_blank"><li>instagram</li></a>
                     <a href="https://api.whatsapp.com/send?phone=5551998419207&text=ol%C3%A1%20vimos%20seu%20portif%C3%B3lio,%20e%20entramos%20em%20contato%20mais%20tarde" target="_blank">
                         <li>whatsapp</li>
                     </a>
@@ -68,25 +67,6 @@
         <h1 class="project">PROJETOS</h1>
             <div class="projetos" id="pro">
                 <div class="pro">
-                    <h2>Site de psicologia simples:</h2>
-                        <a href="https://rodrigo-psicologia.vercel.app/" target="_blank"><img src="img/rodrigo.jpg" id="sor" alt=""></a>
-                    <br>
-                    <p>
-                        Este foi um pequeno projeto que fiz para um professor meu
-                        que estava cursando psicologia. O site tem textos
-                        de tipos de problemas que ele pode tratar como 
-                        depressão, ansiedade, problemas familiares e etc
-                    </p> 
-                    <br>
-                    <div>
-                        <p>usados:</p>
-                        <img src="img/bootstrap-50.png" alt="">
-                        <img src="img/css3-50.png" alt="">
-                        <img src="img/html-5-50.png" alt="">
-                    </div>
-                </div>
-                    <br><hr><br>
-                <div class="pro">
                     <h2>Segura:</h2>
                     <a href="https://segura-site.vercel.app/" target="_blank"><img src="img/portifolio.jpg" id="segura" alt=""></a>
                     <br>
@@ -94,7 +74,7 @@
                         Segura, um site de segurança de dispositivos, este site 
                         foi apenas um teste e ainda precisa ser melhorado.
                         Contem ambos planos para empresas e pessoas
-                        contem valores e outras informaçoes uteis
+                        contem valores e outras informações uteis
                     </p> 
                     <br>
                     <div>
@@ -104,7 +84,6 @@
                         <img src="img/html-5-50.png" alt="">
                     </div>
                 </div>
-                    <br><hr><br>
                 <div class="pro">
                     <h2>Site combo:</h2>
                     <a href="https://senha-gerador.vercel.app/" target="_blank"><img src="img/senhas.jpg" id="senha" alt=""></a>
@@ -123,7 +102,6 @@
                         <img src="img/html-5-50.png" alt="">
                     </div>
                 </div>
-                    <br><hr><br>
                 <div class="pro">
                     <h2>Calculadora de nota escolar:</h2>
                     <a href="https://notas-escola.vercel.app/" target="_blank"><img src="img/nota.jpg" alt="" id="nota"></a>
@@ -132,7 +110,7 @@
                         aqui fiz uma calculadora de media anual e media 
                         bimestral, sendo a media bimestral 7 pontos, e no final
                         do ano a suma de suas notas deve ser 28 pontos para 
-                        passar se estiver abaixo disso você estara de provão 
+                        passar se estiver abaixo disso você estará de provão 
                     </p> 
                     <br>
                     <div>
@@ -151,7 +129,10 @@
             <p>&copy; 2023 Mauricio Castelão. Todos os direitos reservados.</p>
         </div>
     </footer>
-
-    <script src="js/index.js"></script>
+    <script >
+        document.getElementById('menu').addEventListener('click', () =>{
+            document.getElementById('divMenu').classList.toggle('hide')
+        })
+    </script>
 </body>
 </html>
