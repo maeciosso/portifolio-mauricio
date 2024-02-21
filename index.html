@@ -2,43 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index.css">       
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mauricio</title>
     
 </head>
 <body>
 
-    <nav>
+    <header>
         <img src="img/menu.svg" alt="" id="menu">
         <img src="img/logo2.png" id="logo" alt="">
-    </nav>
+    </header>
 
-    <div id="divMenu" class="hide none">
-        <img src="img/x.svg" id="x" alt="">
+    <nav>
         <ul>
-            <a href=""><li>Home</li></a>
-                <hr>
-            <a href="index_eng.html"><li>Eng. version</li></a>
-                <hr>
-            <li id="contato">Contato</li>
-                <ul id="dContatos" class="hide">
-                    <a href="www.linkedin.com/in/mauricio-c-1b0733293" target="_blank"><li>LinkedIn</li></a>
-                    <a href="https://github.com/maeciosso" target="_blank"><li>github</li></a>
-                    <a href="https://www.instagram.com/mauriciocastelao_/." target="_blank"><li>instagram</li></a>
-                    <a href="https://api.whatsapp.com/send?phone=5551998419207&text=ol%C3%A1%20vimos%20seu%20portif%C3%B3lio,%20e%20entramos%20em%20contato%20mais%20tarde" target="_blank">
-                        <li>whatsapp</li>
-                    </a>
-
-                </ul>
-
-                <hr>
-            <a href="#pro" id="proje"><li>Projetos</li></a>
-                <hr>
-            <a href="#sobreMim" id="sob"><li>Sobre mim</li></a>
-                <hr>
-        </ul>   
-    </div>
+            <a href="#contato"><li>
+                Contato
+            </li></a>
+            <li>|</li>
+            <a href="#pro"><li>
+                Projetos
+            </li></a>
+            <li>|</li>
+            <a href="#sobreMim"><li>
+                Sobre mim
+            </li></a>
+            <li>|</li>
+        </ul>
+    </nav>
 
     <main>
         <div class="grid1"><!--grid--><!--grid--><!--grid--><!--grid-->
@@ -54,8 +45,8 @@
             <img src="./img/eu.jpg" id="eu" alt="Mauricio Castelão"><!--trocar foto-->
             <p id="sobreMim">
                 Meu nome é Mauricio Castelão sou um desenvolvedor front-end treine apaixonado por criar 
-                websites. Com habilidades sólidas em HTML, CSS e intermediarias em JavaScript, 
-                tenho um comprometimento na melhora de minhas capacidades técnicas, juntamente com a melhora
+                websites. Tenho habilidades sólidas em HTML, CSS, iniciantes em JavaScript, basicas em php e mysql.
+                Tenho um comprometimento na melhora de minhas capacidades técnicas, juntamente com a melhora
                 de sites. Diagnosticado com TEA nível 1(transtorno do espectro autista) em 2022, sou proativo e 
                 sempre buscou soluções rápidas e funcionais para com  desafios de desenvolvimento.
                 Com uma mentalidade ágil e uma atitude positiva, estou sempre ansioso para contribuir 
@@ -67,23 +58,43 @@
         <h1 class="project">PROJETOS</h1>
             <div class="projetos" id="pro">
                 <div class="pro">
-                    <h2>Segura:</h2>
-                    <a href="https://segura-site.vercel.app/" target="_blank"><img src="img/portifolio.jpg" id="segura" alt=""></a>
+                    <h2>Site Interclasse:</h2>
+                    <a href="https://interclassenovo.infinityfreeapp.com/" target="_blank"><img src="img/interclasse.jpg" id="classe" alt=""></a>
                     <br>
                     <p>
-                        Segura, um site de segurança de dispositivos, este site 
-                        foi apenas um teste e ainda precisa ser melhorado.
-                        Contem ambos planos para empresas e pessoas
-                        contem valores e outras informações uteis
+                        Este site foi um pedido de um professor meu que serviria de intermediador com a escola, 
+                        aqui o site tem um proposito de ser parecido com um blog onde há adição e exclusão de
+                        datas de treino, jogos e reuniões adição e exclusão de fotos, tabela de times e painel de admin.
+
                     </p> 
                     <br>
-                    <div>
+                    <div class="usados">
                         <p>usados:</p>
-                        <img src="img/js-50.png" alt="">
+                        <img src="img/php.svg" alt="">
                         <img src="img/css3-50.png" alt="">
                         <img src="img/html-5-50.png" alt="">
                     </div>
                 </div>
+
+                <div class="pro">
+                    <h2>Site de psicologia:</h2>
+                    <a href="http://rodrigopsicologia.infinityfreeapp.com/" target="_blank"><img src="img/rodrigo.jpg" id="sor" alt=""></a>
+                    <br>
+                    <p>
+                        Este site foi um pedido de outro professor meu, que faz psicologia,
+                        o site passa suas informações, localização de seu consultório, exibe datas 
+                        em que ele esta disponível para atendimento e redirecionamento para seu WhatsApp
+                        para agendar consultas.
+                    </p> 
+                    <br>
+                    <div class="usados">
+                        <p>usados:</p>
+                        <img src="img/php.svg" alt="">
+                        <img src="img/css3-50.png" alt="">
+                        <img src="img/html-5-50.png" alt="">
+                    </div>
+                </div>
+                
                 <div class="pro">
                     <h2>Site combo:</h2>
                     <a href="https://senha-gerador.vercel.app/" target="_blank"><img src="img/senhas.jpg" id="senha" alt=""></a>
@@ -95,25 +106,26 @@
                         gerador de QRCode, e testador de cores hexadecimal
                     </p> 
                     <br>
-                    <div>
+                    <div class="usados">
                         <p>usados:</p>
                         <img src="img/js-50.png" alt="">
                         <img src="img/css3-50.png" alt="">
                         <img src="img/html-5-50.png" alt="">
                     </div>
                 </div>
+                
                 <div class="pro">
                     <h2>Calculadora de nota escolar:</h2>
                     <a href="https://notas-escola.vercel.app/" target="_blank"><img src="img/nota.jpg" alt="" id="nota"></a>
-                    <br><br>
+                    <br>
                     <p>
-                        aqui fiz uma calculadora de media anual e media 
+                        Aqui fiz uma calculadora de media anual e media 
                         bimestral, sendo a media bimestral 7 pontos, e no final
-                        do ano a suma de suas notas deve ser 28 pontos para 
+                        do ano a soma de suas notas deve ser 28 pontos para 
                         passar se estiver abaixo disso você estará de provão 
                     </p> 
                     <br>
-                    <div>
+                    <div class="usados">
                         <p>usados:</p>
                         <img src="img/js-50.png" alt="">
                         <img src="img/css3-50.png" alt="">
@@ -128,11 +140,22 @@
         <div>
             <p>&copy; 2023 Mauricio Castelão. Todos os direitos reservados.</p>
         </div>
+
+        <ul id="contato">
+            <h3>entre em contato:</h3>
+            <a href="https://api.whatsapp.com/send?phone=5551998419207&text=ol%C3%A1%20vimos%20seu%20portif%C3%B3lio,%20e%20entramos%20em%20contato%20mais%20tarde" target="_blank"><li>
+                Whatsapp
+            </li></a>
+            <a href="https://www.instagram.com/maeciosso/" target="_blank"><li>
+                Instagram
+            </li></a>
+            <a href="https://github.com/maeciosso"><li>
+                Github
+            </li></a>
+            <a href="www.linkedin.com/in/mauricio-c-1b0733293"><li>
+                Linkedin
+            </li></a>
+        </ul>
     </footer>
-    <script >
-        document.getElementById('menu').addEventListener('click', () =>{
-            document.getElementById('divMenu').classList.toggle('hide')
-        })
-    </script>
 </body>
 </html>

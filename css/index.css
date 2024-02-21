@@ -10,6 +10,7 @@ html, body {
   * {
     margin: 0;
     padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
   /* Smooth scrolling behavior */
@@ -49,6 +50,7 @@ html, body {
   h2 {
     color: #fff;
     margin-bottom: 0.5rem;
+    text-align: center;
   }
   
   .titulo {
@@ -57,7 +59,7 @@ html, body {
   }
   
   /* Navigation */
-  nav {
+  header{
     background: cadetblue;
     padding: 0.5rem 1rem;
   }
@@ -65,15 +67,20 @@ html, body {
   li {
     font-size: 1rem;
     margin: 0.5rem;
-    cursor: pointer;
+  }
+  nav{
+    background-color: #ccc;
+  }nav ul{
+    display: flex;
+  }nav ul a:hover{
+    text-decoration: underline;
   }
   
   /* Footer */
   footer {
     margin-top: 200px;
     background: cadetblue;
-    height: 40px;
-    display: flex;
+    height: 165px;
     justify-content: center;
     align-items: center;
   }
@@ -141,7 +148,7 @@ html, body {
     text-align: center;
   }
   
-  #segura,
+  #classe,
   #senha,
   #sor,
   #nota {
@@ -172,26 +179,29 @@ html, body {
   .pro > div > img {
     margin: 0
   }  
+.usados img{
+  width: 50px;
+}
 
 
   /*media queries*/
-  @media screen and (width: 2560px){
-    #segura, #nota, #senha{width: 250px;}
-    .pro > p{width: 400px; margin: 0;}
+  @media screen and (min-width: 1440px) and (max-width: 2560px){
+    #sor, #nota, #senha, #classe{width: 250px; margin: auto 100px;}
+    .pro > p{width: 400px; margin: auto; text-align: center;}
     .pro{width: fit-content; margin: 20px auto;}
     #pro{display: grid; grid-template-columns: repeat(3, 1fr);}
     #sobreMim{width: 500px; margin: auto;}
   }
-  @media screen and (min-width: 1024px) and (max-width: 1920px){
-    #segura, #nota, #senha{width: 250px;}
-    .pro > p{width: 400px; margin: 0;}
+  @media screen and (min-width: 1024px) and (max-width: 1439px){
+    #sor, #nota, #senha, #classe{width: 250px; margin: 5px 100px;}
+    .pro > p{width: 400px; margin: auto;text-align: center;}
     .pro{width: fit-content; margin: 20px auto;}
     #pro{display: grid; grid-template-columns: repeat(2, 1fr);}
-    #sobreMim{width: 500px; margin: auto;}
+    #sobreMim{width: 500px; margin: auto; font-size: large;}
   }
   @media screen and (min-width: 630px) and (max-width: 930px){
-    #segura, #nota, #senha{width: 250px}
-    .pro > p{width: 400px; margin: 0;}
+    #sor, #nota, #senha, #classe{width: 250px; margin: auto 100px;}
+    .pro > p{width: 400px; margin: auto; text-align: center;}
     .pro{width: fit-content; margin: auto;}
     #sobreMim{width: 500px; margin: auto;}
   }
