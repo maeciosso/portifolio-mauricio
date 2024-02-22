@@ -203,5 +203,5 @@ html, body {
     #sor, #nota, #senha, #classe{width: 250px; margin: auto 100px;}
     .pro > p{width: 400px; margin: auto; text-align: center;}
     .pro{width: fit-content; margin: auto;}
-    #sobreMim{width: 500px; margin: auto;}
+    #sobreMim{width: 500px; margin: auto; font-size: large}
   }
